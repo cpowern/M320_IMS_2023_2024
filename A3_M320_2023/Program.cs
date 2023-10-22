@@ -4,7 +4,7 @@ class Programm
 {
     static void Main(string[] args)
     {
-        Taschenrechner taschenrechner = new Taschenrechner();
+        Taschenrechner taschenrechner = new Taschenrechner(); // Instanz erstellt und in der Variablen "taschenrechner" gespeichert.
         TaschenrechnerAusführen(taschenrechner);
     }
 
@@ -17,7 +17,7 @@ class Programm
         Console.WriteLine("4. Division");
         Console.WriteLine("5. Beenden");
 
-        char option;
+        char option;  // Option erstellt
         do
         {
             Console.Write("Wählen Sie eine Option (1/2/3/4/5): ");

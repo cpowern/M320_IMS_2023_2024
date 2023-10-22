@@ -37,7 +37,7 @@ namespace Class_Projects
             }
             set
             {
-                if (value >= 0)
+                if(value >= 0)
                 {
                     this.height = value;
                 }
@@ -53,7 +53,7 @@ namespace Class_Projects
         {
             get
             {
-                return this.width * this.height;
+                return this.width* this.height;
             }
         }
         /* public string Name

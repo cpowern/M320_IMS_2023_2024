@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M320_IMS_2023_2024
+namespace dings
 {
-    internal class Class1
+    internal class Notebook
     {
-        public static int Calc_kgv
+        //OneNote
     }
 }

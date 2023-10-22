@@ -2,9 +2,12 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main (string[] arg)
         {
-            Console.WriteLine("Hello, World!");
+            string title = "todo";
+            string deletedTodo;
+            deletedTodo = title;
+            Console.WriteLine(deletedTodo);
         }
     }
 }
