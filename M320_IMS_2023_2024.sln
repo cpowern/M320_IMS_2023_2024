@@ -25,14 +25,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uebung", "Uebung\Uebung.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dings", "dings\dings.csproj", "{4F04CEA5-0C42-45C4-B434-CDADA715D786}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fussballmannschaft", "Fussballmannschaft\Fussballmannschaft.csproj", "{6D9E0C76-C724-4B8E-B362-913E4FB6D47F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{705115DE-D417-4C7E-9B19-5544EC3151A3}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fussballteam", "Fussballteam\Fussballteam.csproj", "{86298E9A-8AEB-4E79-BD82-B116DD67858F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fussballteam", "Fussballteam\Fussballteam.csproj", "{86298E9A-8AEB-4E79-BD82-B116DD67858F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LIDL", "LIDL\LIDL.csproj", "{F3A62908-0578-4CEC-A923-22C0AC83F925}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometrische_Figuren", "Geometrische_Figuren\Geometrische_Figuren.csproj", "{FEC9DFC5-DD8D-441D-933A-2216BD295E14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,14 +86,18 @@ Global
 		{4F04CEA5-0C42-45C4-B434-CDADA715D786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F04CEA5-0C42-45C4-B434-CDADA715D786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F04CEA5-0C42-45C4-B434-CDADA715D786}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D9E0C76-C724-4B8E-B362-913E4FB6D47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D9E0C76-C724-4B8E-B362-913E4FB6D47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D9E0C76-C724-4B8E-B362-913E4FB6D47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D9E0C76-C724-4B8E-B362-913E4FB6D47F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86298E9A-8AEB-4E79-BD82-B116DD67858F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86298E9A-8AEB-4E79-BD82-B116DD67858F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86298E9A-8AEB-4E79-BD82-B116DD67858F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86298E9A-8AEB-4E79-BD82-B116DD67858F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A62908-0578-4CEC-A923-22C0AC83F925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A62908-0578-4CEC-A923-22C0AC83F925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A62908-0578-4CEC-A923-22C0AC83F925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A62908-0578-4CEC-A923-22C0AC83F925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC9DFC5-DD8D-441D-933A-2216BD295E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC9DFC5-DD8D-441D-933A-2216BD295E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC9DFC5-DD8D-441D-933A-2216BD295E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC9DFC5-DD8D-441D-933A-2216BD295E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

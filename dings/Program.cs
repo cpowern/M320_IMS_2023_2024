@@ -19,6 +19,8 @@
             Laus laus2 = new Laus(hund);
             int i = 0;
 
+            Console.WriteLine("Hello World!");
+
         }
     }
 }
