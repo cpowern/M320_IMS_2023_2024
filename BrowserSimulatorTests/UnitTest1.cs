@@ -49,10 +49,6 @@ namespace BrowserSimulatorTests
             Assert.IsFalse(stack.IsFull);
         }
 
-
-
-
-
         [TestMethod]
         public void TestPeak()
         {
