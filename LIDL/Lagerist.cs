@@ -6,13 +6,23 @@ using System.Threading.Tasks;
 
 namespace LIDL
 {
-    public class Lagerist: Person
+    public class Lagerist : Person
     {
-        public int Groese { get; set; }
+        public int Groesse { get; set; }
+
+        public Lagerist()
+        {
+            Console.WriteLine("ctor Lagerist");
+        }
 
         public void LagereEin()
         {
-            Console.WriteLine($"Lagerist: {Vorname} {Name}");
+            Console.WriteLine($"Lagerist: {Vorname} {Name} lagert ein.");
+        }
+
+        public override void Trage()
+        {
+            Console.WriteLine($"Lagerist: {Vorname} {Name} {Id} trägt mit Stapler.");
         }
     }
 }

@@ -1,27 +1,22 @@
-﻿using System;
-
-namespace MyNamespace
+﻿namespace Fussballteam
 {
-    public class Feldspieler
+    internal class Feldspieler
     {
-        public void AufsTorSchiessen(string name)
-        {
-            Console.WriteLine($"{name} schießt aufs Tor");
-        }
+        public Feldspieler(string name) { Name = name; }
 
-        public void Graetschen(string name)
-        {
-            Console.WriteLine($"{name} macht eine Blutgrätsche");
-        }
+        public string Name { get; private set; }
 
-        public void Dribbeln(string name)
+        public void AufsTorSchiessen()
         {
-            Console.WriteLine($"{name} dribbelt den Gegner schwindlig");
+            Console.WriteLine($"{Name} schiest aufs Tor!");
         }
-
-        public void TorSchiessen(string name)
+        public void Graetschen()
         {
-            Console.WriteLine($"{name} schießt ein Tor");
+            Console.WriteLine($"{Name} macht eine Blutgraetsche!");
+        }
+        public void Dribbeln()
+        {
+            Console.WriteLine($"{Name} dribbelt den Gegner schwindlig!");
         }
     }
 }

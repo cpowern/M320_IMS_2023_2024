@@ -1,9 +1,15 @@
-﻿namespace MyNamespace
+﻿using System.Xml.Linq;
+
+namespace Fussballteam;
+
+internal class Resultat
 {
-    public class Resultat
+    private readonly int toreA, toreB;
+
+    public Resultat(int a, int b) { toreA = a; toreB = b; }
+
+    public override string ToString()
     {
-        public Spiel Spiel { get; set; } = new Spiel(); //Komposition
-        public int HeimmannschaftTore { get; set; }
-        public int GastmannschaftTore { get; set; }
+        return $"{toreA} : {toreB}";
     }
 }

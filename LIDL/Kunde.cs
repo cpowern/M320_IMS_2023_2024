@@ -8,11 +8,15 @@ namespace LIDL
 {
     public class Kunde : Person
     {
-        public double Umsatz { get; set; } 
+        public double Umsatz { get; set; }
 
-        public void kaufe()
+        public void Kaufe()
         {
-            Console.WriteLine($" Kunde: {Vorname} + {Name} ");
+            Console.WriteLine($"Kunde: {Vorname} {Name} kauft bei Lidl.");
+        }
+        public override void Trage()
+        {
+            Console.WriteLine($"Kunde: {Vorname} {Name} trägt mit Einkaufswagen.");
         }
     }
 }

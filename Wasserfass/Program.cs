@@ -1,22 +1,13 @@
-﻿using System;
-
-class Program
+﻿namespace Wasserfass
 {
-    static void Main()
+    internal class Program
     {
-        // Erstellen eines Wassertanks mit einem Anfangswasserstand von 0 Litern
-        Wassertank tank = new Wassertank();
-
-        // Befüllen des Tanks mit 50 Litern Wasser
-        tank.befüllen(50);
-
-        // Entnehmen von 20 Litern Wasser
-        tank.entnehmen(20);
-
-        // Den Tank entleeren
-        tank.entleeren();
-
-        // Den aktuellen Wasserstand ausgeben
-        Console.WriteLine("Aktueller Wasserstand im Tank: " + tank.Wasserstand + " Liter");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("\n----------------------------------");
+            Console.WriteLine("\nGuete Tag mini Dame und Herre! ");
+            Console.WriteLine("De Code hät leider kei usgob, ade!");
+            Console.WriteLine("\n----------------------------------");
+        }
     }
 }
