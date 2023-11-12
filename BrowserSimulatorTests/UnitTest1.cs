@@ -46,7 +46,7 @@ namespace BrowserSimulatorTests
             // Assert
             Assert.AreEqual("URL2", poppedValue);
             Assert.AreEqual("URL2", stack.Peak());
-            Assert.IsFalse(stack.IsFull);
+            Assert.IsFalse(stack.IsFull); //Test
         }
 
         [TestMethod]
