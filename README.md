@@ -4,8 +4,7 @@ This repository is a collection of various C# projects I completed during my tim
 
 ## Purpose
 
-The goal of this repository is to document my learning journey and provide a reference for others interested in C# programming. Feel free to explore, use, or modify the code as needed.
-
+The goal of this repository is to document my learning journey and provide a reference for others interested in C# programming.
 ## Disclaimer
 
 These projects were created for educational purposes and may not be fully optimized or suitable for production use.
